@@ -1,0 +1,16 @@
+{
+  "name": "coi-random-turn-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node console.js",
+    "generate": "node console.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "random-js": "^2.1.0"
+  }
+}
