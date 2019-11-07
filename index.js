@@ -42,8 +42,14 @@ const generateTurnSet = async function () {
     }
 };
 
-let getRandomGeneration = async function () {
+const getRandomGeneration = async function () {
     let turns = await generateTurnSet();
+    return turns;
 }
 
-module.exports = getRandomGeneration;
+
+module.exports = {
+    generateTurnSet: generateTurnSet,
+    generateRandomNumber: generateRandomNumber,
+    getRandomGeneration: getRandomGeneration
+};
